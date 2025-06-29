@@ -16,4 +16,11 @@ A simple Python tool for detecting sharp curves from road centerline survey data
 
 ## 📂 Folder Structure
 
-
+sharp-curve-detector/
+├── sharp_curve.py
+├── requirements.txt
+├── README.md
+├── LICENSE
+├── .gitignore
+├── examples/
+└── tests/
