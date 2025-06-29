@@ -29,3 +29,37 @@ sharp-curve-detector/
 - **sharp_curve.py** : Main script.
 - **requirements.txt** : Dependencies.
 - **examples/** : Example input files.
+
+
+---
+
+## 🗂️ Input File Format
+
+Your input `.xlsx` must contain **3 columns**:
+- `Station` — chainage or stake number
+- `X` — X coordinate
+- `Y` — Y coordinate
+
+Example:
+| Station | X       | Y       |
+|---------|---------|---------|
+| 0       | 120.123 | 23.456  |
+| 1       | 120.124 | 23.457  |
+| ...     | ...     | ...     |
+
+---
+
+## ⚙️ Install
+
+1️⃣ Clone this repository  
+```bash
+git clone https://github.com/YOUR_USERNAME/sharp-curve-detector.git
+cd sharp-curve-detector
+
+pip install -r requirements.txt
+
+python sharp_curve.py --input path/to/your_input.xlsx --output path/to/output.xlsx
+Parameters:
+
+--input : Path to your input Excel file
+--output : Optional. Path to save the output Excel. Default: sharp_curves_output.xlsx
