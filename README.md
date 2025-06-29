@@ -51,7 +51,7 @@ Example:
 
 ## 👤 Author
 
- [@alexkointw]
+[@alexintw](https://github.com/alexintw)
 
 Feel free to open an issue or pull request!
 ---
