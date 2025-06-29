@@ -49,6 +49,11 @@ Example:
 | 0K+001  | 256000  | 2710000 |
 | ...     | ...     | ...     |
 
+## 👤 Author
+
+**YOUR NAME** — [@alexkointw](https://github.com/YOUR_USERNAME)
+
+Feel free to open an issue or pull request!
 ---
 
 ## ⚙️ Install
@@ -67,9 +72,3 @@ Parameters:
 --output : Optional. Path to save the output Excel. Default: sharp_curves_output.xlsx
 
 python sharp_curve.py --input examples/sample_input.xlsx --output sharp_curves_output.xlsx
-
-## 👤 Author
-
-**YOUR NAME** — [@alexkointw](https://github.com/YOUR_USERNAME)
-
-Feel free to open an issue or pull request!
