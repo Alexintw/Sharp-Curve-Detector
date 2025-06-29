@@ -2,6 +2,20 @@
 
 A simple Python tool for detecting sharp curves from road centerline survey data.
 
+# Sharp Curve Detector
+
+一個用 Python 實現的道路中心線急彎偵測工具（依外接圓半徑）。
+
+## 功能
+- 從 Excel 讀取每公尺樁位的 X、Y 座標
+- 依照三點外接圓計算半徑
+- 找出半徑小於 50 公尺的三點組合
+- 合併連續的急彎段
+- 輸出結果為 Excel
+
+## 安裝
+```bash
+pip install -r requirements.txt
 ---
 
 ## 🚧 Features
