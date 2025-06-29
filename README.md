@@ -63,3 +63,5 @@ Parameters:
 
 --input : Path to your input Excel file
 --output : Optional. Path to save the output Excel. Default: sharp_curves_output.xlsx
+
+python sharp_curve.py --input examples/sample_input.xlsx --output sharp_curves_output.xlsx
