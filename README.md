@@ -38,15 +38,15 @@ sharp-curve-detector/
 ## 🗂️ Input File Format
 
 Your input `.xlsx` must contain **3 columns**:
-- `Station` — chainage or stake number
-- `X` — X coordinate
-- `Y` — Y coordinate
+- `Station` — chainage or stake number(道路中心線公尺樁) 
+- `X` — X coordinate（坐標建議為TWD97 TM2）
+- `Y` — Y coordinate（坐標建議為TWD97 TM2）
 
 Example:
 | Station | X       | Y       |
 |---------|---------|---------|
-| 0       | 120.123 | 23.456  |
-| 1       | 120.124 | 23.457  |
+| 0       | 255999  | 2709999 |
+| 1       | 256000  | 2710000 |
 | ...     | ...     | ...     |
 
 ---
