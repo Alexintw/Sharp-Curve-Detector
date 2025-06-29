@@ -60,7 +60,7 @@ Feel free to open an issue or pull request!
 
 1️⃣ Clone this repository  
 ```bash
-git clone https://github.com/YOUR_USERNAME/sharp-curve-detector.git
+git clone https://github.com/alexintw/sharp-curve-detector.git
 cd sharp-curve-detector
 
 pip install -r requirements.txt
