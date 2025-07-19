@@ -38,9 +38,9 @@ The following diagram shows the sharp curve detection logic:
 ## 🗂️ Input File Format
 
 Your input `.xlsx` must contain **3 columns**:
-- `Station` — chainage or stake number(道路中心線公尺樁) 
-- `X` — X coordinate（坐標建議為TWD97 TM2）
-- `Y` — Y coordinate（坐標建議為TWD97 TM2）
+- `Station` — chainage or stake number(ex: 0K+000) 
+- `X` — X coordinate（TWD97 TM2）
+- `Y` — Y coordinate（TWD97 TM2）
 
 Example:
 | Station | X       | Y       |
