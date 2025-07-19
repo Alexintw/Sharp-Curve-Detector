@@ -30,7 +30,7 @@ The following diagram illustrates the logic used by the Sharp Curve Detection To
 
 The following diagram shows the sharp curve detection logic:
 
-<img src="./sharp_curve_mermaid.svg" alt="Sharp Curve Detection Flowchart" width="600"/>
+<img src="./sharp_curve_mermaid.svg.svg" alt="Sharp Curve Detection Flowchart" width="600"/>
 
 
 ---
